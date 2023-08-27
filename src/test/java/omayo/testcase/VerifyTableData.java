@@ -12,6 +12,7 @@ public class VerifyTableData extends BestTest{
 	@Test
 	public void verifyTableData()
 	{
+		//This is compare table data
 		ArrayList<String> expectedTableData=new ArrayList<String>();
 		expectedTableData.add("Kishore");
 		expectedTableData.add("22");
