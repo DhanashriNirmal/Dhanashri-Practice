@@ -24,7 +24,7 @@ public class VerifyTableData extends BestTest{
 		expectedTableData.add("Bangalore");
 		expectedTableData.add("Dheepthi");
 		expectedTableData.add("31");
-		expectedTableData.add("pune");
+		expectedTableData.add("Mumbai");
 		
 		assertEquals(Utility.getAllData(driver, "//table[@id='table1']/tbody/tr//td"), expectedTableData);
 	}
